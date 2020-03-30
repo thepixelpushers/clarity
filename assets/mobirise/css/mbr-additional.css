@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700&display=swap);
+
 
 
 
@@ -506,15 +508,16 @@ a:hover,
   color: #ffffff;
 }
 #menu2-0 .navbar-toggler {
-  color: #989898;
+  color: #ffffff;
 }
 #menu2-0 .close-icon::before,
 #menu2-0 .close-icon::after {
-  background-color: #989898;
+  background-color: #ffffff;
 }
 #menu2-0 .link,
 #menu2-0 .dropdown-item {
-  color: #989898;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu2-0 .link {
   font-size: 0.75rem;
@@ -546,7 +549,7 @@ a:hover,
   background: #000000;
 }
 #menu2-0 .bg-color.transparent .link {
-  color: #989898;
+  color: #ffffff;
   transition: none;
 }
 #menu2-0 .bg-color.transparent.opened .link {
@@ -559,4 +562,7 @@ a:hover,
 #menu2-0 .link[aria-expanded="true"],
 #menu2-0 .dropdown-item[aria-expanded="true"] {
   color: #fff!important;
+}
+#content1-1 H1 {
+  font-size: 24px;
 }

@@ -55,13 +55,15 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#989898"
+              "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#989898"
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#989898"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -82,7 +84,7 @@
               "background": "#000000"
             },
             ".bg-color.transparent .link": {
-              "color": "#989898",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -98,11 +100,15 @@
           "_params": {
             "logo": true,
             "sticky": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#989898",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
             "fontHoverColor": "#fff"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FUNDING SOLUTIONS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">company</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">testimonials</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">contact</a></li>",
@@ -116,8 +122,8 @@
               "title": ""
             }
           },
-          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"icon-twitter\"></i></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"icon-facebook\"></i></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"icon-googleplus\"></i></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"icon-dribbble\"></i></a> ",
-          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span> sample@sample.com</a>",
+          "icons": "   <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"icon-dribbble\"></i></a> ",
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span>Click To Call Us Now</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>hello@ClarityBusinessFunding.com</a>",
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Theme"
@@ -127,13 +133,13 @@
         },
         {
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/main-slide-image-1.jpg",
-            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/handshake-1980x660.jpg",
+            "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
@@ -142,10 +148,10 @@
             },
             "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": 0.7
+            "overlayOpacity": "0.8"
           },
           "title": "<span>Creating a better world of funding for businesses\n</span>",
-          "text": "We unnlock funding for millions of otherwise overlooked businesses",
+          "text": "We unlock funding for millions of otherwise overlooked businesses",
           "form": {
             "action": "holospaces@gmail.com",
             "alerts": {
@@ -218,14 +224,14 @@
         },
         {
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/header6.jpg",
-            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/top-headings-bg-1024x617.jpg",
+            "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
@@ -236,9 +242,9 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.7
           },
-          "title": "<span>Get new information</span>",
-          "text": "Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi. In a diam vehicula sed sollicitudin mattis nunc ut orci lobortis pellentesque",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "title": "<span>Get Approved Now</span>",
+          "text": "NO FEES, NO OBLIGATION, SOFT CREDIT INQUIRIES IN MOST CASES!",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">YES, I WANT TO RECEIVE FUNDS TODAY</a>",
           "_tags": [
             "Theme"
           ],
@@ -342,7 +348,7 @@
               "family": "et-line"
             }
           },
-          "title": "Types of Business Funding",
+          "title": "WE ARE HERE TO ACCELERATE SMALL BUSINESS GROWTH",
           "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
           "title1": "target market",
           "title2": "start up projects",
@@ -360,7 +366,12 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1"
+          "_anchor": "content1-1",
+          "_styles": {
+            "H1": {
+              "font-size": "24px"
+            }
+          }
         },
         {
           "_params": {
@@ -370,8 +381,8 @@
             "showText": false,
             "showButtons": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/header7.jpg",
-            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/successful-stories-1024x352.jpg",
+            "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
@@ -402,7 +413,7 @@
             "showArrows": true,
             "showBullets": true,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/main-slide-image-1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/slider/main_slide_image_1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -494,7 +505,7 @@
             "showTitle": true,
             "showText": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/main-slide-image-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/tea-on-table-1280x650.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff",
